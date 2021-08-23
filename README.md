@@ -5,7 +5,7 @@ Publications based on mfMap:
 - [mfMap: A semi-supervised generative model matching cell lines to cancer subtypes] (arXiv preprint)
 
 <div>
-    <img src="media/method_chap0.png" width=1000>
+    <img src="media/overview.png" width=1000>
 </div>
 
 ## mfMap methodology overview

@@ -3,12 +3,15 @@
 The MFmap is a semi-supervised generative model integrating omics data, matching cell lines to cancer subtypes. 
 Publications based on MFmap:
 - [MFmap: A semi-supervised generative model matching cell lines to tumours and cancer subtypes] (https://www.biorxiv.org/content/10.1101/2021.07.15.452446v1.full)
+
 ## MFmap web app 
 MFmap shiny app is publically available at (http://h2926513.stratoserver.net:3838/MFmap_shiny/)
+
 ## MFmap methodology overview
 <div>
     <img src="media/overview.png" width=1000>
 </div>
+
 ### Prepare input data for MFmap.
 The original mutation and CNV data are represented as a binary matrix indicating the presence/absence of a DNA alteration in a cell line or a bulk tumour sample. This sparse binary matrix is projected onto a cancer reference network ([Huang et al.,Bioinformatics 2018](http://academic.oup.com/bioinformatics/article/34/16/2859/4956012)) and network diffusion algorithm is used to propagate the signals of single somatic events onto their network neighbours, resulting in continuous matrix with the same dimensions of the original binary matrix.
 ### The architecture of MFmap. 
@@ -28,6 +31,7 @@ bash run-example.sh
 # run the example using realistic colon cancer data
 cd data_bak
 # download the data from data repository (https://cloud.hs-koblenz.de/s/WFWjMq9pJ8i29WD)
+cd ..
 bash run_example_real_data.sh
 ```
 

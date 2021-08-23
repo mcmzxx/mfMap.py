@@ -1,7 +1,7 @@
 # Model fidelity map (MFmap)
 
 The MFmap is a semi-supervised generative model integrating omics data, matching cell lines to cancer subtypes. 
-Publications based on MFmap:
+Publication based on MFmap:
 - [MFmap: A semi-supervised generative model matching cell lines to tumours and cancer subtypes] (https://www.biorxiv.org/content/10.1101/2021.07.15.452446v1.full)
 
 ## MFmap web app 

@@ -29,6 +29,7 @@ cd mfMap.py
 bash run-example.sh
 
 # run the example using realistic colon cancer data
+mkdir data_bak
 cd data_bak
 # download the data from data repository (https://cloud.hs-koblenz.de/s/WFWjMq9pJ8i29WD)
 cd ..
